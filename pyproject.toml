@@ -5,8 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "black>=26.1.0",
+    "google-api-python-client>=2.188.0",
+    "google-auth>=2.47.0",
+    "google-auth-oauthlib>=1.2.4",
     "isort>=7.0.0",
     "langchain>=1.2.6",
     "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.7",
+    "python-dotenv>=1.2.1",
+    "selenium>=4.40.0",
+    "sounddevice>=0.5.3",
 ]
