@@ -10,13 +10,8 @@ An intelligent meal planning application that scrapes grocery store deals, analy
 - **Shopping List Creation**: Automatically creates a consolidated shopping list for the generated meals
 - **Email Integration**: Sends meal suggestions and shopping lists directly to your email via Gmail API
 
-## Screenshots
+## Short Demo
 
-### Meal Recipes Email
-<img width="1492" height="715" alt="image" src="https://github.com/user-attachments/assets/4ef57434-dff8-4e37-ab49-2b5fc352dd4b" />
-
-### Shopping List Email
-<img width="1492" height="715" alt="image" src="https://github.com/user-attachments/assets/75c67532-0ee1-4b52-8916-b3ab90763673" />
 
 ## How It Works
 
@@ -60,6 +55,12 @@ uv pip install -e .
    - Run the script once to authenticate (it will create `token.json`)
 
 ## Usage
+
+### Before Running
+
+**Important:** Update the email addresses in `main.py` before running:
+- Open `main.py` and replace `"From"` with your sender email address
+- Replace `"To"` with the recipient email address
 
 Run the main script:
 ```bash

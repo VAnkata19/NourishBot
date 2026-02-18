@@ -6,9 +6,9 @@ def main():
     deals = grocery_offers()
     offers,meals, shopping_list = get_best_offers(deals)
     service = get_gmail_services()
-    msg = create_message("ivanrangelov55@gmail.com","ivanrangelov55@gmail.com","Best Meals",meals)
+    msg = create_message("From","To","Best Meals",meals)
     send_message(service,"me",msg)
-    msg = create_message("ivanrangelov55@gmail.com","ivanrangelov55@gmail.com","Shopping List",shopping_list)
+    msg = create_message("From","To","Shopping List",shopping_list)
     send_message(service,"me",msg)
 
 if __name__ == "__main__":
