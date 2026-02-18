@@ -10,6 +10,15 @@ An intelligent meal planning application that scrapes grocery store deals, analy
 - **Shopping List Creation**: Automatically creates a consolidated shopping list for the generated meals
 - **Email Integration**: Sends meal suggestions and shopping lists directly to your email via Gmail API
 
+## Screenshots
+
+### Meal Recipes Email
+<!-- Add screenshot of the recipes email here -->
+
+### Shopping List Email
+<!-- Add screenshot of the shopping list email here -->
+
+
 ## How It Works
 
 1. **Scraper** (`modules/scraper.py`): Uses Selenium to scrape grocery store offers from ICA Supermarket
@@ -99,14 +108,6 @@ Create a `.env` file in the project root to configure:
 OPENAI_API_KEY=your_openai_key
 OLLAMA_BASE_URL=http://localhost:11434  # If using Ollama
 ```
-
-## Screenshots
-
-### Meal Recipes Email
-<!-- Add screenshot of the recipes email here -->
-
-### Shopping List Email
-<!-- Add screenshot of the shopping list email here -->
 
 ## Notes
 
