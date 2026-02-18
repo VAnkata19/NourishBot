@@ -12,6 +12,7 @@ An intelligent meal planning application that scrapes grocery store deals, analy
 
 ## Short Demo
 
+https://github.com/user-attachments/assets/aece9f85-31d6-4ff2-bc8c-d6b436378984
 
 ## How It Works
 
