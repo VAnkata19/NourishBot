@@ -2,6 +2,10 @@
 
 **Never waste money on groceries again.** NourishBot discovers the best deals at your local supermarket, generates AI-powered recipes based on what's on sale, creates your shopping list, and sends it all straight to your inbox—all with zero effort from you.
 
+## Overview
+
+NourishBot is an intelligent meal planning automation system that combines web scraping, AI-powered analysis, and email delivery. Every run intelligently searches for current grocery deals, transforms them into delicious meal options using GPT/LLM reasoning, and delivers personalized recipe recommendations to your inbox. Whether you're looking to save money, eat healthier, or simply make meal planning effortless, NourishBot handles the heavy lifting.
+
 ## Features
 
 - **Web Scraping**: Automatically scrapes current grocery offers from ICA Supermarket
