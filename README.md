@@ -100,6 +100,14 @@ OPENAI_API_KEY=your_openai_key
 OLLAMA_BASE_URL=http://localhost:11434  # If using Ollama
 ```
 
+## Screenshots
+
+### Meal Recipes Email
+<!-- Add screenshot of the recipes email here -->
+
+### Shopping List Email
+<!-- Add screenshot of the shopping list email here -->
+
 ## Notes
 
 - The scraper targets ICA Supermarket's offers page. Update the URL in `scraper.py` to target different stores
